@@ -1,3 +1,4 @@
+<?php include_partial('jpmobile/dtd') ?>
 <html lang="ja">
   <head>
     <?php include_http_metas() ?>

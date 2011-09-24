@@ -6,8 +6,8 @@ security:  ~
 
 # insert your own filters here
 
-cache:     ~
-execution: ~
-
 jpmobile:
   class: sfJpMobileFilter
+
+cache:     ~
+execution: ~
