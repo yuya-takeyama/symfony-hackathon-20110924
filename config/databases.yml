@@ -6,5 +6,8 @@ all:
     class: sfDoctrineDatabase
     param:
       dsn:      mysql:host=localhost;dbname=mobilesite
-      username: root
-      password: 
+      username: mobilesite
+      password: mobilesite
+      attributes:
+        default_table_charset: utf8
+        default_table_collate: utf8_bin
