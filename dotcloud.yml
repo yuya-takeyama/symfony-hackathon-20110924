@@ -1,0 +1,5 @@
+www:
+  approot: web
+  type: php
+db:
+  type: mysql
