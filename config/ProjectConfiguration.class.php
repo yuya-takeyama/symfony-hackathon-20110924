@@ -10,5 +10,6 @@ class ProjectConfiguration extends sfProjectConfiguration
     $this->enablePlugins('sfDoctrineMasterSlavePlugin');
     $this->enablePlugins('sfDoctrinePlugin');
     $this->enablePlugins('sfPHPUnit2Plugin');
+    $this->enablePlugins('sfJpMobilePlugin');
   }
 }

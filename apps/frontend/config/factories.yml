@@ -29,6 +29,9 @@ dev:
       delivery_strategy: none
 
 all:
+  controller:
+    class: sfJpMobileController
+
   routing:
     class: sfPatternRouting
     param:
@@ -40,3 +43,8 @@ all:
     param:
       cache_key_use_vary_headers: true
       cache_key_use_host_name:    true
+
+  storage:
+    class: sfJpMobileSessionStorage
+    param:
+      session_name: symfony
