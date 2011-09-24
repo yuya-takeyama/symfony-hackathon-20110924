@@ -1,11 +1,27 @@
-# You can find more information about this file on the symfony website:
-# http://www.symfony-project.org/reference/1_4/en/07-Databases
+dev:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=mobilesite'
+
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=mobilesite_test'
+
+prod:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=symfonyhackathon20110924-SG3LGFG4.dotcloud.com;dbname=mobilesite'
+      username: root
+      password: 1xt6L231SqDtl3p1bspY
 
 all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn:      mysql:host=localhost;dbname=mobilesite
       username: mobilesite
       password: mobilesite
       attributes:
