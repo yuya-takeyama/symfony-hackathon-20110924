@@ -14,7 +14,7 @@ prod:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn: 'mysql:host=symfonyhackathon20110924-SG3LGFG4.dotcloud.com;dbname=mobilesite'
+      dsn: 'mysql:host=symfonyhackathon20110924-SG3LGFG4.dotcloud.com;dbname=mobilesite;port=15166'
       username: root
       password: 1xt6L231SqDtl3p1bspY
 
